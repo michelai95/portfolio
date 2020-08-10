@@ -3,8 +3,9 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 
 export default function Navbar() {
+
     useEffect(() => {
-        document.getElementById('home').style.color = 'green';
+        document.getElementById('hello').style.color = 'green';
     }, [])
     return (
         <div>
@@ -12,7 +13,7 @@ export default function Navbar() {
                 <title>Michela's Portfolio</title>
             </Head>
             <navbar>
-                <ul>
+                <ul id='hello'>
                     <li>Home</li>
                     <li>About</li>
                     <li>

@@ -1,18 +1,5 @@
-export default function Test({queryParam}) {
-    let name = queryParam
+export default function HelloAgain() {
     return (
-        <>
-        <h2>Oh, hello</h2>
-        </>
+        <h1>Oh hello, welcome</h1>
     )
-}
-
-export function getServerSideProps({query}) {
-    let queryParam = qeury.name
-
-    return {
-        props: {
-            queryParam,
-        }
-    }
 }
