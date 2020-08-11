@@ -1,17 +1,9 @@
+import styles from '../styles/Home.module.css'
+
 export default function Image() {
     return (
-        <div class="split-left">
-            <div class="centered">
+        <div className={styles.image}>
                 <img src='static/wood.PNG.png'/>
-            </div>
-            <style jsx>
-                {`img {
-                    height: 725px;
-                    width: 925px;
-                    margin-top: -725px;
-                }
-               `}
-            </style>
         </div>
     )
 }

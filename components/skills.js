@@ -1,12 +1,13 @@
 import SkillsTitle from '../components/title2'
+import styles from '../styles/Home.module.css'
 
 export default function Skills() {
     return (
         <div>
             <SkillsTitle />
             <div>
-                <p id="front">Client-side:</p>
-                <ul>
+                <p className={styles.skills}>Client-side:</p>
+                <ul className={styles.list}>
                     <li>HTML5</li>
                     <li>CSS3 + SASS</li>
                     <li>Bootstrap</li>
@@ -19,8 +20,8 @@ export default function Skills() {
                 </ul>
             </div>
             <div>
-                <p id="back">Server-side:</p>
-                <ul>
+                <p className={styles.skills}>Server-side:</p>
+                <ul className={styles.list}>
                     <li>Python</li>
                     <li>Postgres</li>
                     <li>MongoDB</li>
@@ -39,24 +40,6 @@ export default function Skills() {
             <div>
 
             </div>
-            <style jsx>
-                {`
-                li {
-                    list-style: none;
-                    text-align: center;
-                },
-                body {
-                    color: white;
-                    font-weight: 200;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-around;
-                },
-                p {
-                    font-weight: 400;
-                    text-align: center;
-                }`}
-            </style>
         </div>
     )
 }

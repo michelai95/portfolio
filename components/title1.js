@@ -1,16 +1,9 @@
+import styles from '../styles/Home.module.css'
+
 export default function Title() {
     return (
         <div>
-            <p>Work Experience</p>
-            <style jsx>
-                {`p {
-                    font-weight: 500;
-                    color: white;
-                    font-size: 50px;
-                    text-align: center;
-                    padding: 5px;
-                    }`}
-            </style>
+            <p className={styles.title}>Work Experience</p>
         </div>
     )
 }

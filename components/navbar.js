@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import React, { useEffect } from 'react'
+import styles from '../styles/Home.module.css'
 
 export default function Navbar() {
 
@@ -13,7 +14,7 @@ export default function Navbar() {
                 <title>Michela's Portfolio</title>
             </Head>
             <navbar>
-                <ul id='hello'>
+                <ul className={styles.hello}>
                     <li>Home</li>
                     <li>
                         <Link href="">
@@ -30,16 +31,6 @@ export default function Navbar() {
                     </li>
                 </ul>
             </navbar>
-            <style jsx>
-                {`
-                #hello {
-                    font-weight: 200;
-                    color: white;
-                    display: flex;
-                    justify-content: space-around;
-                    list-style: none;
-                }`}
-            </style>
         </div>
     )
 } 
