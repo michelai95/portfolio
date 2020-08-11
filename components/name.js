@@ -24,24 +24,27 @@ export default function Name() {
                 delay: (el, i) => 100 + 30 * i
             });
     })
-
     return (
         <div>
-            <h1 class="ml12">Hello, my name is Michela</h1>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <h1 className="ml12">Hello, my name is Michela</h1>
             <style jsx>
                 {`.ml12 {
-            font-weight: 200;
-            font-size: 1.8em;
-            text-transform: uppercase;
-            letter-spacing: 0.5em;
-          }
-          
-          .ml12 .letter {
-            display: inline-block;
-            line-height: 1em;
-          }`}
+                font-weight: 200;
+                font-size: 1.8em;
+                text-transform: uppercase;
+                letter-spacing: 0.5em;
+                color: white;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 324px;
+                }
+
+                .ml12 .letter {
+                display: inline-block;
+                line-height: 1em;
+                }`}
             </style>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         </div>
     )
 }

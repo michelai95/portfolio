@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 export default function Navbar() {
 
     useEffect(() => {
-        document.getElementById('hello').style.color = 'green';
+        document.getElementById('hello').style.color = 'white';
     }, [])
     return (
         <div>
@@ -15,12 +15,14 @@ export default function Navbar() {
             <navbar>
                 <ul id='hello'>
                     <li>Home</li>
-                    <li>About</li>
                     <li>
                         <Link href="">
-                            <a>Projects</a>
+                            <a>Portfolio</a>
                         </Link>
                     </li>
+                    <li>Work Experience</li>
+                    <li>Skills and Education</li>
+                    <li>About</li>
                     <li>
                         <Link href="">
                             <a>Contact</a>
@@ -28,6 +30,16 @@ export default function Navbar() {
                     </li>
                 </ul>
             </navbar>
+            <style jsx>
+                {`
+                #hello {
+                    font-weight: 200;
+                    color: white;
+                    display: flex;
+                    justify-content: space-around;
+                    list-style: none;
+                }`}
+            </style>
         </div>
     )
 } 
