@@ -5,9 +5,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Navbar() {
 
-    useEffect(() => {
-        document.getElementById('hello').style.color = 'white';
-    }, [])
     return (
         <div>
             <Head>
