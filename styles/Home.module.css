@@ -6,7 +6,7 @@
   color: white;
   display: flex;
   justify-content: flex-end;
-  margin-right: 324px;
+  margin-right: 250px;
   }
 
   .ml12 .letter {
@@ -14,18 +14,28 @@
   line-height: 1em;
   }
 
-.hello {
+.navbar {
   font-weight: 200;
   color: white;
   display: flex;
   justify-content: space-around;
   list-style: none;
+  overflow: hidden;
+  background-color: #8ea9cc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 16px;
 }
-
+ .icons { 
+  height: 40px;
+  width: 40px;
+  display: grid;
+ }
 .image {
-  height: 300px;
-  width: 300px;
-  margin-top: -725px;
+  height: 100vh;
+  width: 900px;
+  margin-top: -700px;
 }
 
 .list {
@@ -33,34 +43,43 @@
   text-align: center;
   color: white;
   font-weight: 200;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-around;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .skills {
   font-weight: 500;
   text-align: center;
   color: white;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .arrow {
   color: #d7e1ed;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   opacity: 12;
-  display: flex;
-  align-items: baseline;
+  margin-left: 1800px;
 }
 
 .contact {
   color: white;
   font-weight: 1000;
+  display: flex;
+
 }
 
 .email{
   font-weight: 200;
   color: white;
+}
+
+.flower {
+  height: 50vh;
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: 70%;
 }
 
 .title {
@@ -69,6 +88,7 @@
   font-size: 50px;
   text-align: center;
   padding: 5px;
+  margin: 90px 0px 5px 0px;
   }
 
 .brandStatement {
@@ -77,6 +97,20 @@
   text-align: left;
   display: flex;
   justify-content: flex-end;
+}
+
+.work {
+  font-weight: 200;
+  color: white;
+  display: flex;
+  margin-top: 10px;
+  padding: 70px 0px 200px 0px;
+  text-align: center;
+}
+
+.description {
+  list-style: none;
+  text-align: left;
 }
 
 @media (max-width: 600px) {

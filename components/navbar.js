@@ -11,7 +11,7 @@ export default function Navbar() {
                 <title>Michela's Portfolio</title>
             </Head>
             <navbar>
-                <ul className={styles.hello}>
+                <ul className={styles.navbar}>
                     <li>Home</li>
                     <li>
                         <Link href="">

@@ -1,10 +1,14 @@
 import SkillsTitle from '../components/title2'
 import styles from '../styles/Home.module.css'
+import ImageTwo from '../components/image2'
 
 export default function Skills() {
     return (
         <div>
             <SkillsTitle />
+            <div>
+                <ImageTwo />
+            </div>
             <div>
                 <p className={styles.skills}>Client-side:</p>
                 <ul className={styles.list}>
@@ -18,6 +22,9 @@ export default function Skills() {
                     <li>Materialize</li>
                     <li></li>
                 </ul>
+            </div>
+            <div>
+                <ImageTwo />
             </div>
             <div>
                 <p className={styles.skills}>Server-side:</p>

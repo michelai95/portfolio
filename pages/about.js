@@ -7,6 +7,8 @@ import Footer from '../components/footer'
 import Arrow from '../components/arrow'
 import Skills from '../components/skills'
 import Image from '../components/image'
+import Portfolio from '../components/portfolio'
+import Icons from '../components/contactLinks'
 
 
 export default function About() {
@@ -26,9 +28,15 @@ export default function About() {
                 <Image />
             </div>
             <div>
+                <Portfolio />
+            </div>
+            <div>
                 <WorkExperience />
                 <Skills />
                 <Footer />
+            </div>
+            <div>
+                <Icons />
             </div>
             <div>
                 <Arrow />
