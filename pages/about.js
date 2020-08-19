@@ -1,5 +1,4 @@
 import Navbar from '../components/navbar'
-import Name from '../components/name'
 import React, { useEffect } from 'react'
 import BrandStatement from '../components/brandStatement'
 import WorkExperience from '../components/workExperience'
@@ -9,6 +8,7 @@ import Skills from '../components/skills'
 import Image from '../components/image'
 import Portfolio from '../components/portfolio'
 import Icons from '../components/contactLinks'
+import styles from '../styles/Home.module.css'
 
 
 export default function About() {
@@ -18,27 +18,30 @@ export default function About() {
     }
     )
     return (
-        <div className="container">
+        <div className={styles.wrapper}>
             <Navbar />
-            <div className="center">
-                <Name />
+            <div className={styles.brandStatement}>
                 <BrandStatement />
             </div>
-            <div>
+            <div className={styles.image}>
                 <Image />
             </div>
-            <div>
+            <div className={styles.portfolio}>
                 <Portfolio />
             </div>
-            <div>
+            <div className={styles.work}>
                 <WorkExperience />
-                <Skills />
-                <Footer />
+            <div>
+                <Skills className={styles.flower}/>
             </div>
             <div>
+                <Footer className={styles.footer}/>
+            </div>
+            </div>
+            <div className={styles.icons}>
                 <Icons />
             </div>
-            <div>
+            <div className={styles.arrow}>
                 <Arrow />
             </div>
             <style jsx>

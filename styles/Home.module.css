@@ -4,15 +4,19 @@
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: white;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 250px;
-  }
+}
 
-  .ml12 .letter {
+.ml12 .letter {
   display: inline-block;
   line-height: 1em;
-  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 9fr;
+  grid-template-rows: 100px 400px 400px 400px;
+}
 
 .navbar {
   font-weight: 200;
@@ -27,24 +31,27 @@
   width: 100%;
   padding: 20px 16px;
 }
- .icons { 
+.icons { 
   height: 40px;
   width: 40px;
   display: grid;
- }
+  grid-template-columns: 2fr 2fr;
+  margin-left: 90%;
+}
+
 .image {
-  height: 100vh;
-  width: 900px;
-  margin-top: -700px;
+  height: 90vh;
+  width: 50vw;
+  grid-column-start: 1;
+  grid-column-end: 2.5;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .list {
   list-style: none;
-  text-align: center;
   color: white;
   font-weight: 200;
-  display: grid;
-  grid-template-columns: 100%;
 }
 
 .skills {
@@ -60,14 +67,13 @@
   height: 100px;
   width: 100px;
   opacity: 12;
-  margin-left: 1800px;
 }
 
 .contact {
   color: white;
   font-weight: 1000;
-  display: flex;
-
+  grid-row-start: 6;
+  grid-row-end: 6;
 }
 
 .email{
@@ -77,9 +83,7 @@
 
 .flower {
   height: 50vh;
-  margin-left: 400px;
-  display: grid;
-  grid-template-columns: 70%;
+  width: 25vw;
 }
 
 .title {
@@ -89,23 +93,33 @@
   text-align: center;
   padding: 5px;
   margin: 90px 0px 5px 0px;
-  }
+}
 
 .brandStatement {
   color: white;
   font-weight: 200;
   text-align: left;
-  display: flex;
-  justify-content: flex-end;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.projectSummary {
+  color: white;
+}
+
+.portfolio {
+  grid-column-start: 1;
 }
 
 .work {
   font-weight: 200;
   color: white;
-  display: flex;
   margin-top: 10px;
   padding: 70px 0px 200px 0px;
   text-align: center;
+  grid-column-start: 1;
 }
 
 .description {
@@ -113,9 +127,10 @@
   text-align: left;
 }
 
-@media (max-width: 600px) {
-  .grid {
+@media screen and  (min-width: 500px) {
+  .wrapper {
     width: 100%;
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
+

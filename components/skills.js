@@ -4,12 +4,12 @@ import ImageTwo from '../components/image2'
 
 export default function Skills() {
     return (
-        <div>
-            <SkillsTitle />
+        <div className={styles.wrapper}>
             <div>
                 <ImageTwo />
+                <SkillsTitle />
             </div>
-            <div>
+            <div className={styles.container}>
                 <p className={styles.skills}>Client-side:</p>
                 <ul className={styles.list}>
                     <li>HTML5</li>
@@ -26,7 +26,7 @@ export default function Skills() {
             <div>
                 <ImageTwo />
             </div>
-            <div>
+            <div className={styles.container}>
                 <p className={styles.skills}>Server-side:</p>
                 <ul className={styles.list}>
                     <li>Python</li>
@@ -40,9 +40,6 @@ export default function Skills() {
                     <li>Netlify</li>
                     <li>Git && Github</li>
                 </ul>
-            </div>
-            <div>
-
             </div>
             <div>
 
