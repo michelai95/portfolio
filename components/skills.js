@@ -1,31 +1,33 @@
 import SkillsTitle from '../components/title2'
 import styles from '../styles/Home.module.css'
 import ImageTwo from '../components/image2'
+import { FaLaptopCode } from 'react-icons/fa'
+import { FaServer } from 'react-icons/fa'
 
 export default function Skills() {
     return (
         <div className={styles.extra}>
-            <div>
+            <div className={styles.title}>
                 <SkillsTitle />
             </div>
             <div className={styles.container}>
-                <p className={styles.skills}>Client-side:</p>
+            <div className={styles.container1}>
+            <FaLaptopCode className={styles.skills} size={60} color={'white'} />
                 <ul className={styles.list}>
                     <li>HTML5</li>
                     <li>CSS3 + SASS</li>
+                    <li>Python</li>
+                    <li>ReactJS</li>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
-                    <li>Javascript</li>
-                    <li>ReactJS</li>
                     <li>NextJS</li>
+                    <li>Javascript</li>
                     <li>Materialize</li>
-                    <li></li>
                 </ul>
             </div>
-            <div className={styles.container}>
-                <p className={styles.skills}>Server-side:</p>
+            <div className={styles.container2}>
+                <FaServer size={60} color={'white'} className={styles.skills} />
                 <ul className={styles.list}>
-                    <li>Python</li>
                     <li>Postgres</li>
                     <li>MongoDB</li>
                     <li>MySQL</li>
@@ -37,9 +39,9 @@ export default function Skills() {
                     <li>Git && Github</li>
                 </ul>
             </div>
-            <div>
 
             </div>
         </div>
+
     )
 }

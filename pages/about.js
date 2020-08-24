@@ -28,8 +28,11 @@ export default function About() {
             <div className={styles.portfolio}>
                 <Portfolio />
             </div>
-            <div className={styles.work}>
+            <div className={styles.workExperience}>
                 <WorkExperience />
+            </div>
+            <div className={styles.mainSkills}>
+                <Skills />
             </div>
             <style jsx>
                 {`

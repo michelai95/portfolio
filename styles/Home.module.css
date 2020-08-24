@@ -43,10 +43,32 @@
 
 .skills {
   font-weight: 500;
-  text-align: center;
-  color: white;
   display: flex;
-  margin: auto 0;
+  justify-content: center;
+  font-size: 35px;
+  color: #fff; 
+  /* color: white; */
+  width: 30%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.container1, .container2 {
+  padding: 0px 100px;
+  border: 3px solid #CCB18E;
+  border-radius: 50px;
+  background:#CCB18E; 
+  color: white;
+  margin: 50px;
+  /* background: 'public/beach-wood.jpeg' */
+  /* background-image: url('../public/beachWood.jpeg');
+  opacity: 70%; */
 }
 
 .arrow {
@@ -56,10 +78,10 @@
   opacity: 12;
 }
 
-.details {
+/* .details {
   padding: 0px;
   margin: 0 auto;
-}
+} */
 
 .contact {
   color: white;
@@ -85,7 +107,7 @@
   font-size: 50px;
   text-align: center;
   padding: 5px;
-  margin: 90px 0px 5px 0px;
+  /* margin: 90px 0px 5px 0px; */
   display: flex;
   justify-content: center;
 }
@@ -109,8 +131,8 @@
   color: white;
 }
 
-.portfolio {
-  
+.portfolio, .workExperience, .mainSkills {
+  min-height: 100vh;
 }
 
 .work {
@@ -120,12 +142,10 @@
   padding: 70px 0px 200px 0px;
   text-align: center;
   display: flex;
-  
+
 }
 
-.extra {
-  display: flex;
-}
+
 
 .description {
   list-style: none;
