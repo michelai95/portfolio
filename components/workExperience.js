@@ -10,7 +10,7 @@ export default function WorkExperience() {
                     <h1>Robert Half Technology</h1>
                     <h3>IT Recruiting Manager</h3>
                     <div>
-                        <h5>Phoenix, AZ</h5>
+                        <h5 className={styles.details}>Phoenix, AZ</h5>
                         <h5 className={styles.details}>September 2019-April 2020</h5>
                     </div>
                     <div>

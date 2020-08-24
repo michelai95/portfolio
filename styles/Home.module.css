@@ -11,18 +11,11 @@
   line-height: 1em;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row: 9fr;
-  grid-template-rows: 100px 400px 400px 400px;
-}
-
 .navbar {
   font-weight: 200;
   color: white;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-between; */
   list-style: none;
   overflow: hidden;
   background-color: #8ea9cc;
@@ -30,22 +23,16 @@
   top: 0;
   width: 100%;
   padding: 20px 16px;
-}
-.icons { 
-  height: 40px;
-  width: 40px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  margin-left: 90%;
+  margin-left: 85vw;
 }
 
 .image {
-  height: 90vh;
-  width: 50vw;
-  grid-column-start: 1;
-  grid-column-end: 2.5;
-  grid-row-start: 2;
-  grid-row-end: 2;
+  height: 550px;
+  width: 300px;
+  border-radius: 70%;
+  align-content: center;
+  margin-top: 50px;
+  margin-left: 70px;
 }
 
 .list {
@@ -58,8 +45,8 @@
   font-weight: 500;
   text-align: center;
   color: white;
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
+  margin: auto 0;
 }
 
 .arrow {
@@ -69,22 +56,28 @@
   opacity: 12;
 }
 
+.details {
+  padding: 0px;
+  margin: 0 auto;
+}
+
 .contact {
   color: white;
   font-weight: 1000;
-  grid-row-start: 6;
-  grid-row-end: 6;
 }
 
 .email{
   font-weight: 200;
   color: white;
+  display: flex;
+  flex-direction: row;
 }
-
+/* 
 .flower {
-  height: 50vh;
-  width: 25vw;
-}
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+} */
 
 .title {
   font-weight: 500;
@@ -93,16 +86,23 @@
   text-align: center;
   padding: 5px;
   margin: 90px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
 }
 
-.brandStatement {
+.about {
   color: white;
   font-weight: 200;
   text-align: left;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.bs {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .projectSummary {
@@ -110,7 +110,7 @@
 }
 
 .portfolio {
-  grid-column-start: 1;
+  
 }
 
 .work {
@@ -119,7 +119,12 @@
   margin-top: 10px;
   padding: 70px 0px 200px 0px;
   text-align: center;
-  grid-column-start: 1;
+  display: flex;
+  
+}
+
+.extra {
+  display: flex;
 }
 
 .description {
@@ -130,7 +135,7 @@
 @media screen and  (min-width: 500px) {
   .wrapper {
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    
   }
 }
 

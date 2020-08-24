@@ -7,7 +7,6 @@ import Arrow from '../components/arrow'
 import Skills from '../components/skills'
 import Image from '../components/image'
 import Portfolio from '../components/portfolio'
-import Icons from '../components/contactLinks'
 import styles from '../styles/Home.module.css'
 
 
@@ -20,29 +19,17 @@ export default function About() {
     return (
         <div className={styles.wrapper}>
             <Navbar />
-            <div className={styles.brandStatement}>
-                <BrandStatement />
-            </div>
             <div className={styles.image}>
                 <Image />
+            </div>
+            <div className={styles.brandStatement}>
+                <BrandStatement />
             </div>
             <div className={styles.portfolio}>
                 <Portfolio />
             </div>
             <div className={styles.work}>
                 <WorkExperience />
-            <div>
-                <Skills className={styles.flower}/>
-            </div>
-            <div>
-                <Footer className={styles.footer}/>
-            </div>
-            </div>
-            <div className={styles.icons}>
-                <Icons />
-            </div>
-            <div className={styles.arrow}>
-                <Arrow />
             </div>
             <style jsx>
                 {`

@@ -4,9 +4,8 @@ import ImageTwo from '../components/image2'
 
 export default function Skills() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.extra}>
             <div>
-                <ImageTwo />
                 <SkillsTitle />
             </div>
             <div className={styles.container}>
@@ -22,9 +21,6 @@ export default function Skills() {
                     <li>Materialize</li>
                     <li></li>
                 </ul>
-            </div>
-            <div>
-                <ImageTwo />
             </div>
             <div className={styles.container}>
                 <p className={styles.skills}>Server-side:</p>
