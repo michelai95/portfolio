@@ -18,6 +18,7 @@ export default function About() {
     )
     return (
         <div className={styles.wrapper}>
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
             <Navbar />
             <div className={styles.image}>
                 <Image />
@@ -33,6 +34,9 @@ export default function About() {
             </div>
             <div className={styles.mainSkills}>
                 <Skills />
+            </div>
+            <div className={styles.footer}>
+                <Footer />
             </div>
             <style jsx>
                 {`
