@@ -1,6 +1,5 @@
 import SkillsTitle from '../components/title2'
 import styles from '../styles/Home.module.css'
-import ImageTwo from '../components/image2'
 import { FaLaptopCode } from 'react-icons/fa'
 import { FaServer } from 'react-icons/fa'
 

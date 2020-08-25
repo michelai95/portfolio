@@ -13,7 +13,9 @@ import styles from '../styles/Home.module.css'
 export default function About() {
 
     useEffect(() => {
-        document.body.style.backgroundColor = '#8ea9cc'
+        document.body.style.backgroundColor = '#546b79'
+        // #4a5f6b
+        
     }
     )
     return (
