@@ -7,8 +7,10 @@ export default function WorkExperience() {
             <Title />
             <div className={styles.work}>
                 <div>
+                    <div>
                     <h1>Robert Half</h1>
                     <h3>IT Recruiting Manager</h3>
+                    </div>
                     <div>
                         <h5 className={styles.details}>Phoenix, AZ</h5>
                         <h5 className={styles.details}>September 2019-April 2020</h5>
