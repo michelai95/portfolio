@@ -16,7 +16,7 @@ export default function Portfolio() {
                         <div className={styles.p1}>
                             <P1 />
                             <div className={styles.link}>
-                                <a href="https://github.com/michelai95/Meme-memory">Meme-Memory</a>
+                                <p>Meme-Memory</p>
                             </div>
                             <div className={styles.hidden}>
                                 <div>
@@ -34,7 +34,7 @@ export default function Portfolio() {
                         <div className={styles.hackathon}>
                             <Hackathon />
                             <div className={styles.link}>
-                                <a href="https://github.com/michelai95/hackathon">Wonderlist</a>
+                                <p>Wonderlist</p>
                             </div>
                             <div className={styles.hidden}>
                                 <div>
@@ -53,7 +53,7 @@ export default function Portfolio() {
                         <div className={styles.p2}>
                             <P2 />
                             <div className={styles.link}>
-                                <a href="https://github.com/michelai95/Project2">Groove Station</a>
+                                <p>Groove Station</p>
                             </div>
                             <div className={styles.hidden}>
                                 <div>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                         <div className={styles.p4}>
                             <P4 />
                             <div className={styles.link}>
-                                <a href="https://github.com/michelai95/Project4">Try this instead...</a>
+                                <p>Try this instead...</p>
                             </div>
                         </div>
                         <div className={styles.hidden}>

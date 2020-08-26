@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa';

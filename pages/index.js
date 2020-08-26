@@ -28,14 +28,14 @@ export default function About() {
             <div className={styles.brandStatement}>
                 <BrandStatement />
             </div>
+            <div className={styles.mainSkills}>
+                <Skills />
+            </div>
             <div className={styles.portfolio}>
                 <Portfolio />
             </div>
             <div className={styles.workExperience}>
                 <WorkExperience />
-            </div>
-            <div className={styles.mainSkills}>
-                <Skills />
             </div>
             <div className={styles.footer}>
                 <Footer />
