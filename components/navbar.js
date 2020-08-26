@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <div>
             <Head>
-                <title>Michela's Portfolio</title>
+                <title>Michela Iacobucci</title>
             </Head>
             <navbar>
                 <ul className={styles.navbar}>
