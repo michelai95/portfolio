@@ -36,6 +36,7 @@
 }
 
 .list {
+  list-style: none;
   color: white;
   font-weight: 200;
 }
@@ -229,7 +230,6 @@
 }
 
 .description {
-  list-style: none;
   text-align: left;
 }
 
