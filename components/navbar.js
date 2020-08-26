@@ -32,7 +32,7 @@ export default function Navbar() {
             </a>
             </div>
             <div>
-                <a href="static/RESUME 20pdf.pdf">
+                <a href="static/Resume 20.pdf">
                     <FaFile size={50} color={'white'} />
                 </a>
             </div>
