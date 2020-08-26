@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import Props from '../static/name.js'
+
 
 export default function BrandStatement() {
         
