@@ -16,7 +16,7 @@ export default function WorkExperience() {
                     <div>
                         <ul className={styles.description}>
                             <li>Work with candidates and clients within the IT field to help build strong IT teams.</li>
-                            <li>Within the first 8 months, booked over 80K in revenue. </li>
+                            {/* <li>Within the first 8 months, booked over 80K in revenue. </li> */}
                             <li>Managed a candidate base of over 400+ people, while maintaining 10-12 interviews a week.</li>
                             <li>Scheduled and executed 2-3 visits to clients each week where I would create partnerships and negotiate terms.</li>
                         </ul>
