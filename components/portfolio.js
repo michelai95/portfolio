@@ -16,15 +16,15 @@ export default function Portfolio() {
                         <div className={styles.p1}>
                             <P1 />
                             <div className={styles.link}>
-                                <p>Meme-Memory</p>
+                                <p>DevSpot</p>
                             </div>
                             <div className={styles.hidden}>
                                 <div>
                                     <p className={styles.text}>
                                         <br />
-                                        A Meme-memory card game that forces you to remember where your favorite memes are hiding. Just like your favorite childhood game, it'll keep track of your time and score.
+                                        A site that allows developers to post their projects and collaborate with other developers to build out their portfolio.
                                         <br />
-                                        This project was created within a two week sprint using HTML, CSS, Javascript.
+                                        This project was created within a group of four, two front-end developers and two back-end developers. Created with MERN stack.
                                     </p>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default function Portfolio() {
                                     <p className={styles.text}>
                                         <br /> A group project designed by 3 UX/UI designers and brought to life by 3 Devs. We had 24 hours to build a proof of concept based on a specific theme.
                                         <br />
-                                        This project was created HTML, CSS, and ReactJs.
+                                        This project was created with HTML, CSS, and ReactJs.
                                     </p>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ export default function Portfolio() {
                                     <br />
                                     An individual project that required us to learn a new language/framework and finish our MVP within six days. The app allows users to find substitude ingredients for others. It is ideal for those with allergies, preferences, or dietary restrictions.
                                     <br />
-                                    Created Vuejs, HTML, CSS, Javascript, and the BonAPI.
+                                    Created with Vuejs, HTML, CSS, Javascript, and the BonAPI.
                                 </p>
                             </div>
                         </div>

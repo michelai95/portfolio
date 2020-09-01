@@ -191,6 +191,12 @@
   opacity: 1;
 }
 
+.tech {
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
 
 .text {
   color: white;

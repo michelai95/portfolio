@@ -16,22 +16,22 @@ export default function Navbar() {
             <navbar>
                 <ul className={styles.navbar}>
             <div>
-                <a href="https://twitter.com/miacobucci8">
+                <a href="https://twitter.com/miacobucci8" target="_blank">
                     <FaTwitter size={50} color={'white'} />
                 </a>
             </div>
             <div>
-            <a href="https://github.com/michelai95">
+            <a href="https://github.com/michelai95" target="_blank">
                 <FaGithub size={50} color={'white'}  />
             </a>
             </div>
             <div>
-            <a href="https://www.linkedin.com/in/michela-iacobucci-356b58132/" >
+            <a href="https://www.linkedin.com/in/michela-iacobucci-356b58132/" target="_blank">
                 <FaLinkedin size={50} color={'white'}  />
             </a>
             </div>
             <div>
-                <a href="static/RESUME 20.pdf">
+                <a href="static/RESUME20.pdf" target="_blank">
                     <FaFile size={50} color={'white'} />
                 </a>
             </div>

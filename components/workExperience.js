@@ -1,5 +1,6 @@
 import Title from '../components/title1'
 import styles from '../styles/Home.module.css'
+import Accordion from '../components/Accordion'
 
 
 export default function WorkExperience() {
