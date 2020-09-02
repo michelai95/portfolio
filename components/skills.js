@@ -6,7 +6,7 @@ import { FaServer } from 'react-icons/fa'
 export default function Skills() {
     return (
         <div className={styles.extra}>
-            <div className={styles.title}>
+            <div>
                 <SkillsTitle />
             </div>
             <div className={styles.container}>

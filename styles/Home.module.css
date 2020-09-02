@@ -243,6 +243,7 @@
     margin: 200px;
     display: grid;
     font-size: 50px;
+    justify-content: center;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
     /* flex-direction: column;
@@ -280,5 +281,10 @@
   .tech {
     font-size: 2em;
   }
+
+  .title {
+    font-size: 4.5em;
+  }
+
 }
 

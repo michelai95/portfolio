@@ -9,7 +9,7 @@ export default function Portfolio() {
     return (
         <div>
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat:ital@1&display=swap" rel="stylesheet" />
-            <PortfolioTitle />
+            <PortfolioTitle className={styles.title} />
             <div className={styles.grabPortfolio}>
                 <div className={styles.group1}>
                     <div className={styles.container3}>
