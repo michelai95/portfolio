@@ -12,7 +12,7 @@ export default function Portfolio() {
             <PortfolioTitle />
             <div className={styles.grabPortfolio}>
                 <div className={styles.group1}>
-                    <div className={styles.container}>
+                    <div className={styles.container3}>
                         <div className={styles.p1}>
                             <P1 />
                             <div className={styles.link}>
@@ -30,7 +30,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.container}>
+                    <div className={styles.container3}>
                         <div className={styles.hackathon}>
                             <Hackathon />
                             <div className={styles.link}>
@@ -49,7 +49,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div className={styles.group2}>
-                    <div className={styles.container}>
+                    <div className={styles.container3}>
                         <div className={styles.p2}>
                             <P2 />
                             <div className={styles.link}>
@@ -66,7 +66,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.container}>
+                    <div className={styles.container3}>
                         <div className={styles.p4}>
                             <P4 />
                             <div className={styles.link}>

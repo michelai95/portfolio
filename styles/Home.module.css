@@ -66,21 +66,13 @@
   background:#8ba1af; 
   color: white;
   margin: 50px;
-  /* background: 'public/beach-wood.jpeg' */
-  /* background-image: url('../public/beachWood.jpeg');
-  opacity: 70%; */
 }
 
-.arrow {
+/* .arrow {
   color: #d7e1ed;
   height: 100px;
   width: 100px;
   opacity: 12;
-}
-
-/* .details {
-  padding: 0px;
-  margin: 0 auto;
 } */
 
 .contact {
@@ -94,12 +86,6 @@
   display: flex;
   flex-direction: row;
 }
-/* 
-.flower {
-  height: 100vh;
-  width: 50vw;
-  display: flex;
-} */
 
 .title {
   font-weight: 500;
@@ -160,8 +146,10 @@
   backface-visibility: hidden;
 }
 
-.container {
+.container3 {
   position: relative;
+  font-size: 35px;
+  display: flex;
 }
 
 .image2 {
@@ -183,11 +171,11 @@
   text-align: center;
 }
 
-.container:hover .image2 { 
+.container3:hover .image2 { 
   opacity: 0.3;
 }
 
-.container:hover .hidden {
+.container3:hover .hidden {
   opacity: 1;
 }
 
@@ -244,10 +232,53 @@
   font-size: 20px;
 }
 
-@media screen and  (min-width: 500px) {
+@media (max-height: 780px), (max-width: 450px) {
   .wrapper {
     width: 100%;
-    
+    display: grid;
+  }
+  .container3 {
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    display: grid;
+    font-size: 50px;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+    /* flex-direction: column;
+    align-content: space-around; */
+  }
+
+  .wrap {
+    font-size: 2.5em;
+  }
+
+  .grabPortfolio {
+    margin: 0 auto;
+    padding: 0 200px 280px 0;
+  }
+
+  .about {
+    font-size: 45px;
+  }
+  .ml12 {
+    font-size: 50px;
+  }
+
+  .container1, .container2 {
+    font-size: 45px;
+  }
+
+  .footer {
+    font-size: 2.5em;
+  }
+
+  .jobTitle {
+    font-size: 1.5em;
+  }
+
+  .tech {
+    font-size: 2em;
   }
 }
 

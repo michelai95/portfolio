@@ -1,6 +1,5 @@
 import Title from '../components/title1'
 import styles from '../styles/Home.module.css'
-import Accordion from '../components/Accordion'
 
 
 export default function WorkExperience() {
@@ -8,7 +7,7 @@ export default function WorkExperience() {
         <div>
             <Title />
             <div className={styles.work}>
-                <div>
+                <div className={styles.wrap}>
                     <h1>Robert Half</h1>
                     <h3>IT Recruiting Manager</h3>
                     <div>
@@ -22,7 +21,7 @@ export default function WorkExperience() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={styles.wrap}>
                     <h1>MINDBODY</h1>
                     <h3>SMB <br />
                     Software Specialist</h3>
@@ -37,7 +36,7 @@ export default function WorkExperience() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={styles.wrap}>
                     <h1>Yelp</h1>
                     <h3>Franchise Account Executive</h3>
                     <div>
@@ -51,7 +50,7 @@ export default function WorkExperience() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={styles.wrap}>
                     <h1>Yelp</h1>
                     <h3>Account Executive</h3>
                     <div>
