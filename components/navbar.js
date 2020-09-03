@@ -31,7 +31,7 @@ export default function Navbar() {
             </a>
             </div>
             <div>
-                <a href="static/RESUME20.pdf" target="_blank">
+                <a href="static/RESUME.pdf" target="_blank">
                     <FaFile size={50} color={'white'} />
                 </a>
             </div>
