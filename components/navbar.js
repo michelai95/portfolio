@@ -31,7 +31,7 @@ export default function Navbar() {
             </a>
             </div>
             <div>
-                <a href="static/RESUME.pdf" target="_blank">
+                <a href="static/michela_iacobucci_-_Full_Stack_Engineer.pdf" target="_blank">
                     <FaFile size={50} color={'white'} />
                 </a>
             </div>

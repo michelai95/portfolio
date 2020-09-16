@@ -1,6 +1,6 @@
 .ml12 {
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: white;
@@ -30,9 +30,10 @@
   height: 550px;
   width: 300px;
   border-radius: 100%;
-  align-content: center;
+  /* align-content: center; */
+  display: flex;
   margin-top: 5px;
-  margin-left: 70px;
+  margin-left: 400px;
 }
 
 .list {
@@ -68,13 +69,6 @@
   margin: 50px;
 }
 
-/* .arrow {
-  color: #d7e1ed;
-  height: 100px;
-  width: 100px;
-  opacity: 12;
-} */
-
 .contact {
   color: white;
   font-weight: 1000;
@@ -103,16 +97,12 @@
 .about {
   color: white;
   font-weight: 200;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
+  text-align: center;
+  font-size: 23px;
 }
 
 .bs {
-  position: relative;
-  margin-top: 30px;
-  margin-left: 20px;
+  text-align: center;
 }
 
 .projectSummary {
@@ -120,7 +110,11 @@
 }
 
 .portfolio, .workExperience, .mainSkills {
-  min-height: 100vh;
+  min-height: 90vh;
+}
+
+.bs {
+  min-height: 30vh;
 }
 
 .work {

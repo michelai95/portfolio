@@ -9,7 +9,6 @@ import Image from '../components/image'
 import Portfolio from '../components/portfolio'
 import styles from '../styles/Home.module.css'
 import Tech from '../components/portfolioFooter'
-import Accordion from '../components/Accordion'
 import Tile from '../components/Tile'
     
 
@@ -76,9 +75,9 @@ export default function About(props) {
             <div className={styles.portfolio}>
                 <Portfolio />
             </div>
-            <div className={styles.workExperience}>
+            {/* <div className={styles.workExperience}>
                 <WorkExperience />
-            </div>
+            </div> */}
             {/* <div>
                 <div className="tile">
                     {tiles.map((tile, i) => (
