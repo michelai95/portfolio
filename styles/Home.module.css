@@ -38,6 +38,7 @@
   grid-column-end: 3; */
   margin-top: 5px;
   margin-left: 270px;
+  display: grid;
 }
 
 .list {
@@ -213,8 +214,9 @@
 
 
 .grabPortfolio {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .description {
@@ -231,3 +233,63 @@
 }
 
 
+@media only screen and (max-height: 700px), (max-width: 450px) {
+  .wrapper {
+    width: 100%;
+    display: grid;
+  }
+  .container3 {
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+  }
+
+  .wrap {
+    font-size: 2.5em;
+  }
+
+  .grabPortfolio {
+    margin: 0 auto;
+    padding: 0px 200px 280px 0;
+  }
+
+  .about {
+    font-size: 45px;
+  }
+  .ml12 {
+    font-size: 50px;
+  }
+
+ .navbar {
+   margin-left: 240vw;
+ }
+
+  .link {
+    font-size: 1.4em;
+  }
+
+  .container1, .container2 {
+    font-size: 45px;
+  }
+
+  .footer {
+    padding: 200px 0 0 0;
+    font-size: 2.5em;
+  }
+
+  .jobTitle {
+    font-size: 1.5em;
+  }
+
+  .tech {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 4.5em;
+  }
+
+}
