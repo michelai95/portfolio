@@ -12,9 +12,9 @@ export default function BrandStatement() {
                 My interest in development started when I was younger but didn’t reignite until post college.<br />
                 During my time as an IT recruiter I enjoyed talking with developers about their personal projets and passion for technology, which sparked my interest. <br />
                 My passion stems from being able to help people connect on a global level by providing tools that make day to day tasks more efficient.<br />
+                I like to consider myself a futurist, which means that I am fascinated by AgroTech and the kind of innovation that will lead to a more sustainable world. <br />
                 I’m excellent at meeting deadlines, love collaborating with others, and take pride in detailed data-driven code.<br />
                 In my spare time, you can find me geeking out on non-fiction technology books, traveling, or listening to good music. <br />
-                I like to consider myself a futurist, which means that I am fascinated by AgroTech and the kind of innovation that will lead to a more sustainable world. 
             </p>
         </div>
     )
