@@ -15,7 +15,6 @@
   font-weight: 200;
   color: white;
   display: flex;
-  /* justify-content: space-between; */
   list-style: none;
   overflow: hidden;
   background-color: '#546b79';
@@ -30,12 +29,6 @@
   height: 500px;
   width: 300px;
   border-radius: 100%;
-  /* align-content: center; */
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-start: 2;
-  grid-column-end: 3; */
   margin-top: 5px;
   margin-left: 270px;
   display: grid;
@@ -53,7 +46,6 @@
   justify-content: center;
   font-size: 35px;
   color: #fff; 
-  /* color: white; */
   width: 30%;
 }
 
@@ -93,7 +85,6 @@
   text-align: center;
   padding: 5px;
   margin-top: 110px;
-  /* margin: 90px 0px 5px 0px; */
   display: flex;
   justify-content: center;
   font-family: 'Libre Caslon Display', serif;
@@ -108,6 +99,7 @@
 
 .bs {
   text-align: center;
+  min-height: 30vh;
 }
 
 .projectSummary {
@@ -116,10 +108,6 @@
 
 .portfolio, .workExperience, .mainSkills {
   min-height: 90vh;
-}
-
-.bs {
-  min-height: 30vh;
 }
 
 .work {
@@ -232,6 +220,13 @@
   font-size: 20px;
 }
 
+.wrap1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 200;
+}
+
 
 @media only screen and (max-height: 700px), (max-width: 450px) {
   .wrapper {
@@ -292,4 +287,11 @@
     font-size: 4.5em;
   }
 
+}
+
+@media only screen and (min-height: 780px), (min-width: 1000px) {
+  .image {
+    display: flex; 
+    align-items: center;
+  }
 }

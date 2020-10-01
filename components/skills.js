@@ -18,6 +18,7 @@ export default function Skills() {
                     <li>Python</li>
                     <li>ReactJS</li>
                     <li>Bootstrap</li>
+                    <li>VueJS</li>
                     <li>jQuery</li>
                     <li>NextJS</li>
                     <li>Javascript</li>
