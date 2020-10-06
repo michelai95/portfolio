@@ -208,11 +208,22 @@
 }
 
 .description {
-  text-align: left;
+  text-align: center;
 }
 
 .details {
   margin: auto 0;
+}
+
+.link {
+  display: inline;
+  padding: 2px;
+}
+
+.objective {
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
 }
 
 .jobTitle {

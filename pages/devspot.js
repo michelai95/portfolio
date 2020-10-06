@@ -10,12 +10,12 @@ export default function project1() {
     return (
         <div className={styles.wrap1}>
             <div className={styles.description}>
+                <p className="objective">Objective</p>
                 <p>A group project designed by 3 UX/UI designers and brought to life by 3 Devs. We had 24 hours to build a proof of concept based on a specific theme. <br />
-                    This project was created with HTML, CSS, and ReactJs.
+                        This project was created with HTML, CSS, and ReactJs.
                 </p>
-                <a className={styles.link} href="https://github.com/jamo1998/Dev-Spot" target="_blank">Github</a>
-                <br />
-                <a className={styles.link} href="https://happy-hypatia-639c22.netlify.app/login" target="_blank">Deployed Version</a>
+                <a className={styles.link} href="https://github.com/jamo1998/Dev-Spot" target="_blank">Github</a> /
+                    <a className={styles.link} href="https://happy-hypatia-639c22.netlify.app/login" target="_blank"> Deployed Version</a>
             </div>
         </div>
     )
