@@ -10,7 +10,7 @@ export default function hackathon() {
     return (
         <div className={styles.wrap1}>
             <div className={styles.description}>
-                <p className="objective">Objective</p>
+                <p className={styles.objective}>Objective</p>
                 <p>A group project designed by 3 UX/UI designers and brought to life by 3 Devs. We had 24 hours to build a proof of concept based on a specific theme. <br />
                         This project was created with HTML, CSS, and ReactJs.
                 </p>

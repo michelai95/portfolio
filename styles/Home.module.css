@@ -209,6 +209,7 @@
 
 .description {
   text-align: center;
+  font-size: 1.4em;
 }
 
 .details {
@@ -222,6 +223,7 @@
 
 .objective {
   text-align: center;
+  font-size: 30px;
   font-weight: 500;
   font-family: 'Dancing Script', cursive;
 }
@@ -239,64 +241,70 @@
 }
 
 
-@media only screen and (max-height: 700px), (max-width: 450px) {
-  .wrapper {
-    width: 100%;
-    display: grid;
-  }
-  .container3 {
-    width: 200px;
-    height: 200px;
-    margin: 200px;
-    display: grid;
-    font-size: 50px;
-    justify-content: center;
-  }
+@media only screen and (max-height: 700px), (max-width: 500px) {
+.wrapper {
+  width: 100%;
+  display: grid;
+}
+.container3 {
+  width: 200px;
+  height: 200px;
+  margin: 250px;
+  display: grid;
+  font-size: 50px;
+  justify-content: center;
+}
 
-  .wrap {
-    font-size: 2.5em;
-  }
+.wrap {
+  font-size: 2.5em;
+}
 
-  .grabPortfolio {
-    margin: 0 auto;
-    padding: 0px 200px 280px 0;
-  }
+.grabPortfolio {
+  margin: 0 auto;
+  padding: 0px 200px 280px 0;
+}
 
-  .about {
-    font-size: 45px;
-  }
-  .ml12 {
-    font-size: 50px;
-  }
+.hidden {
+  text-align: center;
+}
 
- .navbar {
-   margin-left: 240vw;
- }
+.about {
+  font-size: 57px;
+}
 
-  .link {
-    font-size: 1.4em;
-  }
+.ml12 {
+  font-size: 60px;
+}
 
-  .container1, .container2 {
-    font-size: 45px;
-  }
+.navbar {
+  margin-left: 240vw;
+}
 
-  .footer {
-    padding: 200px 0 0 0;
-    font-size: 2.5em;
-  }
+.container1, .container2 {
+  font-size: 45px;
+}
 
-  .jobTitle {
-    font-size: 1.5em;
-  }
+.footer {
+  padding: 200px 0 0 0;
+  font-size: 2.5em;
+}
 
-  .tech {
-    font-size: 2em;
-  }
+.jobTitle {
+  font-size: 1.5em;
+}
 
-  .title {
-    font-size: 4.5em;
-  }
+.tech {
+  font-size: 2em;
+}
+
+.title {
+  font-size: 4.5em;
+}
+
+.link {
+  font-size: 1.4em;
+  margin-top: -40px;
+}
 
 }
 

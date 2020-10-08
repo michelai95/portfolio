@@ -10,7 +10,7 @@ export default function project2() {
     return (
         <div className={styles.wrap1}>
             <div className={styles.description}>
-                <p className="objective">Objective</p>
+                <p className={styles.objective}>Objective</p>
                 <p>An individual project completed within a two week sprint. I incorporated Spotify's OAuth and used their API to practice RESTful API calls. <br />
                         Once logged into your Spotify profile you can add songs to your playlists, which will reflect in your Spotify account. This project was created with HTML, Javascript, CSS, Express, NodeJS.
                 </p>
