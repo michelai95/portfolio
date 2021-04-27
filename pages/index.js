@@ -19,9 +19,9 @@ export default function About() {
         <div className={styles.wrapper}>
             <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
             <Navbar />
-            <div className={styles.image}>
+            {/* <div className={styles.image}>
                 <Image />
-            </div>
+            </div> */}
             <div className={styles.brandStatement}>
                 <BrandStatement />
             </div>
