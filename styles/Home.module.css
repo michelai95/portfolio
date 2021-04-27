@@ -101,6 +101,8 @@
   text-align: center;
   min-height: 30vh;
   padding-top: 20%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .projectSummary {
