@@ -14,7 +14,7 @@ export default function Navbar() {
                 <title>Michela Iacobucci</title>
             </Head>
             <div className={styles.brandName}> 
-                <button className={styles.chineseName}><span>Mic.</span></button>
+                <button className={styles.button} type="button" data-hover="艾丽娜" data-active="Mic."><span>Mic.</span></button>
             </div>
             <navbar>
                 <ul className={styles.navbar}>
