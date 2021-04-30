@@ -11,6 +11,16 @@
   line-height: 1em;
 }
 
+.brandName {
+  font-size: 3rem;
+  color: white;
+  margin-left: 2%;
+  line-height: 0%;
+}
+button {width:6em}
+button:hover span {display:none}
+button:hover:before {content:"艾丽娜"}
+
 .navbar {
   font-weight: 200;
   color: white;
@@ -100,7 +110,7 @@
 .bs {
   text-align: center;
   min-height: 30vh;
-  padding-top: 30%;
+  padding-top: 20%;
   width: 65%;
   margin: 0 auto;
 }

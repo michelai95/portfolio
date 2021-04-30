@@ -13,6 +13,9 @@ export default function Navbar() {
             <Head>
                 <title>Michela Iacobucci</title>
             </Head>
+            <div className={styles.brandName}> 
+                <button className={styles.chineseName}><span>Mic.</span></button>
+            </div>
             <navbar>
                 <ul className={styles.navbar}>
             <div>
