@@ -15,14 +15,15 @@ export default function Skills() {
                 <ul className={styles.list}>
                     <li>HTML5</li>
                     <li>CSS3 + SASS</li>
-                    <li>Python</li>
                     <li>ReactJS</li>
-                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Salidity</li>
                     <li>VueJS</li>
                     <li>jQuery</li>
                     <li>NextJS</li>
-                    <li>Javascript</li>
-                    <li>Materialize</li>
+                    <li>Material UI</li>
+                    <li>Bootstrap</li>
                 </ul>
             </div>
             <div className={styles.container2}>
@@ -34,9 +35,12 @@ export default function Skills() {
                     <li>SQLAlchemy</li>
                     <li>Flask</li>
                     <li>Heroku CLI</li>
-                    <li>Velcer</li>
+                    <li>Vercel</li>
                     <li>Netlify</li>
                     <li>Git && Github</li>
+                    <li>CPanel</li>
+                    <li>Ganache</li>
+                    <li>Truffle</li>
                 </ul>
             </div>
 

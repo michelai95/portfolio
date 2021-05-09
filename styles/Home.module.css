@@ -355,6 +355,7 @@ display: inline-block;
   font-size: 35px;
   color: #fff; 
   width: 30%;
+  padding-top: 5%;
 }
 
 .extra {
@@ -370,6 +371,7 @@ display: inline-block;
 }
 
 .container1, .container2 {
+  box-shadow: 2px 3px #547285;
   padding: 0px 100px;
   border: 3px solid #8ba1af;
   border-radius: 50px;
